@@ -189,6 +189,7 @@ elseif ( get_post_format() == 'audio' ){
                     <p><?php the_author_meta('description'); ?></p>
                 </div><!-- author-bio -->
             </div><!-- /single-author -->
+            <div id="author-comments-footer" class="clearfix"></div>      
         <?php } ?>
         
         <?php comments_template(); ?>
